@@ -112,7 +112,7 @@ def main():
     st.write("You can input text or use speech recognition by starting with 'transcribe:'")
 
     # Read the text file
-    with open('C:\\Users\\HP\\Desktop\\Pandora\\pride_and_prejudice.txt.txt', 'r', encoding='utf-8') as file:
+    with open('pride_and_prejudice.txt.txt', 'r', encoding='utf-8') as file:
         text = file.read()
 
     # User input for question
