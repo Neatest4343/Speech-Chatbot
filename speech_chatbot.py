@@ -18,7 +18,7 @@ nltk.download('wordnet')
 
 # Function to load and preprocess data
 def load_and_preprocess_data(file_path):
-    with open("C:\\Users\\HP\\Desktop\\Pandora\\pride_and_prejudice.txt.txt", 'r', encoding='utf-8') as file:
+    with open("pride_and_prejudice.txt.txt", 'r', encoding='utf-8') as file:
         text = file.read()
     return text
 
